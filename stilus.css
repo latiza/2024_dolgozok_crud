@@ -1,0 +1,35 @@
+
+html {
+    height: 100%
+}
+
+body {
+    height: 100%;
+    font-size: 14px;
+    background-image: linear-gradient(grey, darkgrey);
+    color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 20px;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+th {
+    background: darkgrey
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}

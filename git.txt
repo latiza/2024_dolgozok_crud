@@ -1,0 +1,12 @@
+echo "vendor/" >> .gitignore
+git checkout -b main
+git add .gitignore
+git rm -r --cached vendor
+git add .
+git commit -m "Initial commit with .gitignore"
+git remote add origin git@github.com:latiza/2024_dolgozok_crud_php.git
+git push -u origin main
+
+ssh kulcs ell: 
+Get-ChildItem -Path ~/.ssh
+
