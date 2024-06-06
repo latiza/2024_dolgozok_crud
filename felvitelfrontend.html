@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dolgozók</title>
+<link href="stilus.css" rel="stylesheet">
+<!--A JavaScript fájl (felvitel.js) betöltése a defer attribútummal biztosítja, hogy a szkript a HTML betöltése után fusson le.-->
+<script src="felviteljavascript.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Új dolgozó felvitele</h1>
+        <form id="form">
+            <div id="kimenet"></div>
+            <p><label for="nev">Név*:</label><br>
+            <input type="text" id="nev" name="nev"></p>
+
+            <p><label for="mobil">Mobil:</label><br>
+            <input type="tel" id="mobil" name="mobil"></p>
+
+            <p><label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"></p>
+
+            <p><em>A *-gal jelölt mezők kitöltése kötelező!</em></p>
+            <input type="submit" id="rendben" name="rendben" value="Rendben">
+            <p><a href="lista.php">Vissza a listához</a></p>
+        </form>
+    </div>
+</body>
+</html>
