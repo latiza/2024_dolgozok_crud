@@ -1,4 +1,5 @@
-A .env fájl beolvasásához telepíteni kell:  composer require vlucas/phpdotenv
+A .env fájl beolvasásához telepíteni kell:  composer require vlucas/phpdotenv;
+
 Ugyanannak a feladatnak több változatát is láthatod.
 A felvitel.php-ben egy fájlon belül láthatod a frontend kimenetet és a backend feldolgozását. 
 A felvitelfrontend.html; felvitelbackend.php; és a felviteljavascript.js fájlok ugyanazt a műveletet látják el, csak szétválasztásra került a frontend és a backend a frontend oldali bemenet javascripttel kerül átadásra feldolgozásra a backendnek.
